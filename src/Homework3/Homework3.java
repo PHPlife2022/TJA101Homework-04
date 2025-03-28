@@ -1,6 +1,7 @@
 package Homework3;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Homework3 {
 //	public static void main(String[] args) {
@@ -10,20 +11,21 @@ public class Homework3 {
 //		System.out.println(data + 100);
 //	}
 //	1.建陣列
-	public static void main(String[] args) {
-//		int[] i= new int[3];		
+	public static void main(String[] args) {				
 		Scanner sc = new Scanner(System.in);
 		System.out.println("輸入:");	
-		int d1 = sc.nextInt();
-		int d2 = sc.nextInt();
-		int d3 = sc.nextInt();
-		if(d1 == 0 || d2 == 0 || d3 == 0) {
+		int[] i = {sc.nextInt(),sc.nextInt(),sc.nextInt()};
+				
+		Arrays.sort(i);
+		if( i[0]== 0 || i[1] == 0 || i[2] == 0 || i[0]+i[1]<=i[2]) {
 			System.out.println("不是三角形");
 		}
-		else if(d1 == d2 && d1 == d3) {
+		else if(i[0] == i[1] && i[0] == i[2]) {
 			System.out.println("正三角形");		
-		}else if(d1 == d2 || d1 == d3) {
+		}else if(i[0] == i[1]) {
 			System.out.println("等腰三角形");
+		}else if (i[0]*i[0]+i[1]*i[1]==i[2]*i[2]){
+			System.out.println("直角三角形");
 		}else 
 		{System.out.println("其他三角形");};
 		
