@@ -22,7 +22,7 @@ public class Homework3 {
 		}
 		else if(i[0] == i[1] && i[0] == i[2]) {
 			System.out.println("正三角形");		
-		}else if(i[0] == i[1]) {
+		}else if(i[0] == i[1] || i[1] == i[2]) {
 			System.out.println("等腰三角形");
 		}else if (i[0]*i[0]+i[1]*i[1]==i[2]*i[2]){
 			System.out.println("直角三角形");
