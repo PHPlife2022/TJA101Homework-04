@@ -22,14 +22,11 @@ public class Homework4_1_3_aeiou {
 					if(re == 0) {					
 						count ++;						
 					}					
-				}
-				
-			}
-			
+				}				
+			}			
 			sum += count;
 //			System.out.println();
-		}
-		System.out.println("的數量為"+ count);
+		}		
 		System.out.println("數量為:"+sum);
 	}
 }
