@@ -9,11 +9,13 @@ public class Homework4_1_1avgArray {
 			sum += Arr[i];			
 		}
 		int avg = sum / Arr.length;
+		System.out.println("平均值="+ avg);
+		System.out.print("大於平均值:");
 		for(int i=0;i<Arr.length;i++) {
 			if(Arr[i]>avg) {
-				System.out.println(Arr[i]);
+				System.out.print(Arr[i]+ " " );
 			}
 		}		
-		System.out.println("平均值="+ avg);			
+					
 	}
 };
