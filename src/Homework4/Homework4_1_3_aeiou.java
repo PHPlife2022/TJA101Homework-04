@@ -27,6 +27,6 @@ public class Homework4_1_3_aeiou {
 			sum += count;
 //			System.out.println();
 		}		
-		System.out.println("數量為:"+sum);
+		System.out.println("母音數量為:"+sum);
 	}
 }
