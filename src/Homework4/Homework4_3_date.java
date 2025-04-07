@@ -13,7 +13,10 @@ public class Homework4_3_date {
 		int mon= date[0][1];
 		int day = date[0][2];
 		
-		if (day != date[1][mon]) {
+		if (mon > 12 || mon < 1) {
+			System.out.println("月份輸入錯誤");
+		}
+		else if(day > date[1][mon] || day < 0) {
 			System.out.println("日期輸入錯誤");
 		}
 		else 
