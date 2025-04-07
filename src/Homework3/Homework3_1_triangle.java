@@ -21,5 +21,6 @@ public class Homework3_1_triangle {
 		} else {
 			System.out.println("其他三角形");
 		};
+		
 	}
 }

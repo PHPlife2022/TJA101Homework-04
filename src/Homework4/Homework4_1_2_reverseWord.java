@@ -18,5 +18,6 @@ public class Homework4_1_2_reverseWord {
 		String reW = String.join("",reWA);		
 		System.out.print(w + "-->");
 		System.out.println(reW);
+		
 	}
 };

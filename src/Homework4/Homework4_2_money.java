@@ -17,6 +17,8 @@ public class Homework4_2_money {
 			}		
 				
 		}
-		System.out.println("共"+sum+"人");		
+		System.out.println("共"+sum+"人");
+		
 	}
+	
 };

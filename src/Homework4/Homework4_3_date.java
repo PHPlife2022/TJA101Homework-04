@@ -31,6 +31,5 @@ public class Homework4_3_date {
 			sum += day;
 			System.out.println("輸入的日期為該年第"+sum+"天");
 		}
-		
-		
+				
 }}
