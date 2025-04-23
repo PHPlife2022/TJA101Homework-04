@@ -12,6 +12,7 @@ public class Homework4_1_3_aeiou {
 		for(int r=0;r<planet.length;r++){
 			count = 0;			
 			String[] a= planet[r].split("");
+			
 			for(int i=0;i<aM.length;i++) {		
 //				System.out.println();				
 				for(int e=0;e<a.length;e++) {					

@@ -27,7 +27,7 @@ public class CalTest__loop extends Calculator  {
 			}catch(Exception a) {
 //				throw new CalException("輸入格式不正確");
 				System.out.println("輸入格式不正確,請重新輸入");
-				sc.nextLine();
+				sc.nextLine();  //用來清除訊息
 			}
 		}
 		
